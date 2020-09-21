@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GoBearTravel" duration-ms="55763" started-at="2020-09-21T09:01:24Z" finished-at="2020-09-21T09:02:20Z">
+    <groups>
+    </groups>
+    <test name="Run test scripts on Chrome" duration-ms="55763" started-at="2020-09-21T09:01:24Z" finished-at="2020-09-21T09:02:20Z">
+      <class name="gobear.travel.search.TestScript">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="beforeClass" is-config="true" duration-ms="12321" started-at="2020-09-21T16:01:24Z" finished-at="2020-09-21T16:01:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.gobear.com/ph?x_session_type=UAT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[81.0.4044.92]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_CheckGoToTravelResultsPage()[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="TC_01_CheckGoToTravelResultsPage" duration-ms="3917" started-at="2020-09-21T16:01:37Z" finished-at="2020-09-21T16:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_CheckGoToTravelResultsPage -->
+        <test-method status="PASS" signature="TC_02_CheckAtLeastThreeCardsDisplayed()[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="TC_02_CheckAtLeastThreeCardsDisplayed" duration-ms="4748" started-at="2020-09-21T16:01:41Z" finished-at="2020-09-21T16:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_CheckAtLeastThreeCardsDisplayed -->
+        <test-method status="PASS" signature="TC_03_CheckSearchTravelByFilterOption()[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="TC_03_CheckSearchTravelByFilterOption" duration-ms="7456" started-at="2020-09-21T16:01:45Z" finished-at="2020-09-21T16:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_CheckSearchTravelByFilterOption -->
+        <test-method status="PASS" signature="TC_04_CheckSearchTravelBySortOption()[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="TC_04_CheckSearchTravelBySortOption" duration-ms="374" started-at="2020-09-21T16:01:53Z" finished-at="2020-09-21T16:01:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_CheckSearchTravelBySortOption -->
+        <test-method status="PASS" signature="TC_05_CheckSearchTravelByDetailsOption()[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="TC_05_CheckSearchTravelByDetailsOption" duration-ms="10361" started-at="2020-09-21T16:01:53Z" finished-at="2020-09-21T16:02:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_CheckSearchTravelByDetailsOption -->
+        <test-method status="PASS" signature="TC_06_VerifySearchMenuIsFunctional()[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="TC_06_VerifySearchMenuIsFunctional" duration-ms="15012" started-at="2020-09-21T16:02:04Z" finished-at="2020-09-21T16:02:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_VerifySearchMenuIsFunctional -->
+        <test-method status="PASS" signature="afterClass(java.lang.String)[pri:0, instance:gobear.travel.search.TestScript@2a40cd94]" name="afterClass" is-config="true" duration-ms="1544" started-at="2020-09-21T16:02:19Z" finished-at="2020-09-21T16:02:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- gobear.travel.search.TestScript -->
+    </test> <!-- Run test scripts on Chrome -->
+  </suite> <!-- GoBearTravel -->
+</testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="GoBearTravel" parallel="false">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+	<test name="Run test scripts on Chrome">
+		<parameter name="browser" value="Chrome" />	
+		<parameter name="url" value="https://www.gobear.com/ph?x_session_type=UAT" />
+		<parameter name="version" value="81.0.4044.92" />
+		<classes>
+			<class
+				name="gobear.travel.search.TestScript" />
+		</classes>
+	</test>
+
+</suite> 

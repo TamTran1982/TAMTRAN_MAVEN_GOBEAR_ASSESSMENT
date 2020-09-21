@@ -1,0 +1,10 @@
+commons\AbstractPage.class
+commons\Constants.class
+commons\AbstractTest.class
+gobear\travel\pages\TravelSearchPagePO.class
+gobear\travel\pages\PageFactoryManager.class
+gobear\travel\interfaces\TravelInsurancePageUI.class
+gobear\travel\interfaces\AbstractPageUI.class
+gobear\travel\interfaces\TravelSearchPageUI.class
+commons\TestNGAppender.class
+gobear\travel\pages\InsuranceTravelPagePO.class
